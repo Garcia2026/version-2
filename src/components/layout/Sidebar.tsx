@@ -10,6 +10,11 @@ const Sidebar = () => {
         <Link href="/tiendas" className="hover:text-blue-600">Tiendas</Link>
         <Link href="/ingresos" className="hover:text-blue-600">Ingresos</Link>
         <Link href="/resumen" className="hover:text-blue-600">Resumen</Link>
+        <Link href="/ventas" className="hover:text-blue-600">Ventas</Link>
+        <Link href="/cotizaciones" className="hover:text-blue-600">Cotizaciones</Link>
+        <Link href="/gastos" className="hover:text-blue-600">Gastos</Link>
+        <Link href="/prestamos" className="hover:text-blue-600">Préstamos</Link>
+        <Link href="/inversiones" className="hover:text-blue-600">Inversiones</Link>
       </nav>
     </aside>
   );
