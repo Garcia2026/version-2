@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "categoria": "Alimentación",
+    "descripcion": "Supermercado",
+    "monto": 150.5,
+    "fecha": "2024-06-01"
+  },
+  {
+    "id": 2,
+    "categoria": "Transporte",
+    "descripcion": "Gasolina",
+    "monto": 75.0,
+    "fecha": "2024-06-03"
+  },
+  {
+    "id": 3,
+    "categoria": "Entretenimiento",
+    "descripcion": "Cine",
+    "monto": 40.25,
+    "fecha": "2024-06-05"
+  },
+  {
+    "id": 4,
+    "categoria": "Servicios",
+    "descripcion": "Electricidad",
+    "monto": 120.0,
+    "fecha": "2024-06-07"
+  },
+  {
+    "id": 5,
+    "categoria": "Otros",
+    "descripcion": "Regalo",
+    "monto": 30.0,
+    "fecha": "2024-06-10"
+  }
+]
