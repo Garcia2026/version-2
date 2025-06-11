@@ -1,4 +1,4 @@
-// src/app/(tiendas)/tiendas/page.tsx
+// src/app/tiendas/page.tsx
 "use client";
 
 import { useEffect, useState } from "react";
@@ -37,7 +37,7 @@ export default function TiendasPage() {
   }, []);
 
   function cargarEjemplo() {
-    const ejemplo: Tienda[] = require("@/data/tiendas-cargadas.json");
+    const ejemplo: Tienda[] = require("@/modules/tiendas/data/tiendas-cargadas.json");
     ejemplo.forEach(t => {
       t.fechaPrimeraVisita = new Date(t.fechaPrimeraVisita);
       t.segundaVisita = new Date(t.segundaVisita);
