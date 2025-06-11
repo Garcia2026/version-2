@@ -1,5 +1,11 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Features
+
+- Financial dashboard with pages for stores, incomes and expenses.
+- New **Gastos** module displays a vibrant chart of expenses by category and a detailed table.
+- Theme colors are driven by CSS variables so you can personalize the primary color.
+
 ## Getting Started
 
 First, run the development server:
@@ -26,6 +32,10 @@ npm test
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+### Customizing the primary color
+
+Modify the CSS variable `--primary` defined in `src/app/globals.css` to quickly change the accent color across the UI.
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
